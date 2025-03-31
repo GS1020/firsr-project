@@ -1,5 +1,5 @@
 
-
+nav a:hover{color: red; border-bottom: 3px red solid;}
 
 /* 슬라이더 메인화면 */
 #slider{margin: 0 auto; width: 100%; position: relative;  }
