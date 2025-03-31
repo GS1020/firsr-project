@@ -1,0 +1,154 @@
+    *{button:hover{cursor: pointer;}}
+    
+    #top1{width:1200px ;height: 980px; margin: 0 auto; display: flex;
+    justify-content: space-between;}
+
+    /* 서브페이지 상단 왼쪽 */
+    .left{width: 580px; height: 980px;  position: relative;}
+
+    .leftside{width: 110px;height: 590px; display: flex; flex-direction: column;
+      justify-content: space-around; align-items: center;  margin-top: 50px;}
+    
+      .leftside img{width: 100%;}
+      .leftside button{width: 100px; border: 0px; background-color: white;}
+      .leftside button:hover{border: 2px solid #333;}
+    
+    
+    #left100{width: 450px; height: 200px; float: right;
+    position: absolute ; top:200px; left:120px} 
+    .left11 img{width: 100%; position: absolute ;  z-index: 1;} 
+    .left22 img{width: 100%; position: absolute ; }
+    .left33 img{width: 100%; position: absolute ; }
+    .left44 img{width: 100%; position: absolute ; }
+    .left55 img{width: 100%; position: absolute ; }
+
+    .leftlow{width: 530px; height: 230px;}
+    .leftlow img{width: 150px; height: 103px; margin-bottom: 70px; margin-top: 20px;} 
+    .leftlow h2{padding: 10px; margin-bottom: 30px; margin-top: 50px;}
+    .leftlow1{width: 183px; height: 234px; border: 1px solid #999; border-radius: 20px; display: flex;
+    flex-direction: column; justify-content: center; align-items: center;}
+      /* 서브페이지 상단 오른쪽 */
+    #right{width: 560px; height: 980px;}
+
+    .rtext{width: 400px; height: 180px; display: flex; flex-direction: column; margin-top: 130px;}
+    .rtext h3{color:#666666}
+
+    .box1{width: 560px; height: 144px; background-color: #f9f9f9;}
+    .box11{width: 560px; height: 100px; display: flex; flex-direction: row; align-items: center;}
+    .box11 h3{margin-left: 30px;}
+    .box11 button{width: 130px; height: 40px;
+      font-size: 15px; background-color: red; color: white; margin-left: 30px;
+    border-radius: 20px; border: 0px;}
+    
+    .box12 {width: 500px; height: 25px; display: flex; flex-direction: row; align-items: center;}
+    .box12 h3 {margin-left: 30px;}
+    .box12 button{border-radius: 100%; width: 20px;border: 0px;}
+    
+
+    .box2{width: 560px; height: 260px; background-color: #f9f9f9; margin-top: 20px;}
+    .box22{width: 560px; height: 40px; margin-left: 30px; display: flex;flex-direction: row; justify-content: space-between; padding-top: 30px;}
+    .box23{width: 103px; height: 38px; display: flex; justify-content: space-between; margin-right: 95px; border: 1px #999 solid; }
+    .box23 button{ width: 30px; height: 30px; border: 0px; background-color: #f9f9f9;}
+    .box23 h2{background-color: #f9f9f9;}
+
+    .box33{ width: 500px; height: 40px; display: flex; flex-direction: row; justify-content: space-between;
+    margin-top: 20px;}
+    .box33 h3{margin-left: 30px;}
+
+    .box44{width: 500px; height: 50px; display: flex; flex-direction: row; justify-content: space-between ;
+    margin-left: 30px; margin-top: 40px;}
+    .box44 button{width: 240px; height: 50px; border-radius: 30px;}
+    .button1{background-color: black; color: white; font-weight: bold;}
+    .button2{background-color: white; color: black; font-weight: bold;}
+
+    .box55{width: 560px; height: 150px; margin-top: 70px; border-radius: 10px;}
+      /* 공백 */
+    .zero{width: 1200px; height: 100px; margin: 0 auto;}
+    /* 제품바 */
+    .menu{width: 100%; height: 70px; background-color: white; margin: 0 auto; border-top:  1px solid black;
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;
+    border-bottom: solid 1px lightgray; margin-bottom: 0px;}
+    .menu button{border: 0px; background-color: white; width: 175px; height: 40px; font-size: 12pt;}
+    /* 설명란 div */
+
+      .bigbig{width: 1200px;  margin: 0 auto; }
+
+    /* 카메라설명란 */
+    .ld{width: 1200px; height: 9590px;  margin: 0 auto; margin-top: 50px; }
+       /* 사양 */
+     
+      .sy{margin: 0 auto; width: 1200px; height: 4100px; display: none; margin-top: 50px;}
+      .sy h1{margin: 20px 0 20px 0;}
+      .sy h2{margin-bottom: 10px;}
+      table{ width: 1200px; border-collapse: collapse;font-weight: bold;}
+      td{border: 1px solid #e1e1e1 ; font-size: 16px;}
+      th{ border-top: 4px solid black; border: 1px solid #e1e1e1;}
+      .textstop{width: 25%; height: 262px;}
+      .textleft{text-align: left; width: 50%; padding: 10px;}
+      .textleft2{text-align: left; width: 25%; padding: 10px;}
+
+      .textcenter7{text-align: center; width: 50%; padding: 10px;}
+      .textcenter{text-align: center; width: 50%; padding: 10px; border-top: 4px solid black;}
+      .textcenter2{text-align: center; padding: 10px; width: 25%; border-top: 4px solid black;}
+      .textcenter3{text-align: center; padding: 10px; font-size: 20px; border-top: 4px solid black;}
+      .textcenter8{text-align: center; padding: 10px; font-size: 20px;}f
+      .textcenter4{text-align: center; padding: 5px;}
+      .textcenter6{text-align: center; padding: 10px; width: 100%;}
+      .textcenter5{text-align: center; padding: 10px; width: 100%; border-top: 4px solid black;}
+      .ds{width: auto; height: 200px; margin-top: 80px;}
+      .ds2{width: auto; height: auto; margin-top: 80px;}
+      .sy span{font-size: 10px;}
+
+    /* 배송/취소/반품/교환 */
+    
+    .bigbox1{width: 1200px; height: 900px; margin: 0 auto; margin-top: 50px;
+      display: flex; flex-direction: column; display: none;   }
+  
+      #contentbox{  width: 100%; height: 175px; display: flex; 
+      flex-direction: row; justify-content: space-around; margin-bottom: 100px; margin-left: 40px;}
+      .mini1{ color: #666666; font-size: 16px; margin-left: 70px;}
+      .mini2{ font-size: 16px; width: 905px; height: 200px; margin-left: 5px;}
+      .mini3{width: 160px;height: 50px;}
+  
+      #content2{  width: 100%; height: 228px;display: flex; flex-direction: row;
+      justify-content: space-evenly;}
+  
+      #content3{  width: 100%; height: 100px; display: flex; flex-direction: row;
+      justify-content: space-evenly; }
+  
+      #content4{  width: 100%; height: 100px; display: flex; flex-direction: row;
+      justify-content: space-evenly;}
+      
+      /* 악세사리 */
+      
+      .tap3{width: 1300px; height: 700px; ; margin: 0 auto; margin-top: 20px; display: none;}
+      
+      .tap3 ul{display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;
+      margin-bottom: 20px; margin-bottom: 50px; }
+      .tap3 ul li{list-style: none; padding: 10px 18px;}
+      .tap3 button{text-decoration: none; color: black; font-weight: bold; background-color: white;
+      border: 0px; font-size: 18px;}
+      .tap3 button:hover{color: red; text-decoration: underline;}
+
+      .acbox1{width: 280px; height: 305px; box-sizing: border-box; border: 1px solid #e1e1e1;
+      border-radius: 20px; text-align: center; display: flex; flex-direction: column; 
+      flex-flow:row wrap; justify-content: center; align-items:center; margin-left: 30px; }
+      
+      .acbox2{width: 280px; height: 305px; box-sizing: border-box; border: 1px solid #e1e1e1;
+      border-radius: 20px; text-align: center; display: flex; flex-direction: column; 
+      flex-flow:row wrap; justify-content: center; align-items:center; margin-left: 30px; }
+
+      .acbox2 img{width: 90%; height: 60%; border-bottom: 2px solid #e1e1e1; padding-bottom: 10px;}
+      .acbox1 img{width: 80%; height: 60%; border-bottom: 2px solid #e1e1e1; padding-bottom: 10px;}
+      /* 마운트 악세사리 */
+      .v2{display: flex; flex-flow: row wrap; justify-content: flex-start; }
+
+      /* 스피드라이트 */
+      .v3{width: 100%; display: flex; flex-flow: row wrap; justify-content: center; opacity: 0;}
+      /* 전원/배터리/그립 */
+      .v4{width: 100%; display: flex; flex-flow: row wrap; justify-content: center; opacity: 0;}
+      /* 리모콘 컨트롤 */
+      .v5{width: 100%; display: flex; flex-flow: row wrap; justify-content: center; opacity: 0;}
+      /* 기능확장 */
+      .v6{width: 100%; display: flex; flex-flow: row wrap; justify-content: center; opacity: 0;}
+  

@@ -1,0 +1,67 @@
+
+
+
+/* 슬라이더 메인화면 */
+#slider{margin: 0 auto; width: 100%; position: relative;  }
+#slider img{width: 100%; display: block;}
+
+#slider h1{ top: 60px; left: 320px; font-size: 60pt; position: absolute;}
+#slider h3{position: absolute; top: 170px; left: 320px; font-size: 20pt; }
+#slider h5{position: absolute; top: 210px; left: 320px; font-size: 20pt;}
+#slider h4{position: absolute; top: 300px; left: 320px; font-size: 20pt; background-color: red;
+color: white; padding: 10px 30px 10px 30px; border-radius: 30px;}
+#slider a{text-decoration: none; color: #333;}
+
+/* 상단 보조 화면 2개 */
+#little{margin: 0 auto; width: 1280px; height: 427px; margin-top: 100px;}
+#little img{float: left;}
+
+/* 베스트 제품 4장 */
+#best{margin: 0 auto; width:1280px ; height: 500px; }
+#best div { margin: 0 auto; width: 310px; height: 442px; float: left;
+    margin: 100px 0px 100px 5px; border-radius: 10px; border: 1px solid #333;
+box-shadow: 1px 1px 1px  #333;}
+#best img {width: 250px; height: 150px;margin: 40px 0 10px 25px;}
+#best h3{float: right; margin: 15px 10px 0px 0px; font-size: 25px; color: red;}
+#best p{margin: 10px 0 0 10px; font-weight: bold; font-size: 30px; color: grey}
+#best span{font-size: 40px;}
+#best h4{margin: 15px;}
+#best a{text-decoration: none; color: black;}
+
+
+
+/* 메인2 사진 */
+#slider2{margin: 0 auto; width: 100%; }
+#slider2 img{width: 100%;}
+/* 카메라 제품 가격 9장*/
+ section{margin: 0 auto; width: 1280px; height: 1032px; }
+ 
+ section div{width: 400px; height: 300px; float: left;}
+ section div a{color: black;}
+ section div:nth-child(1){margin: 100px 0 0 10px; }
+ section div:nth-child(2){margin: 100px 0 0  20px;}
+ section div:nth-child(3){margin: 100px 0 0 20px;}
+ section div:nth-child(4){margin: 10px 0 0 10px;}
+ section div:nth-child(5){margin: 10px 0 0 20px;}
+ section div:nth-child(6){margin: 10px 0 0 20px;}
+ section div:nth-child(7){margin: 10px 0 0 10px;}
+ section div:nth-child(8){margin: 10px 0 0 20px;}
+ section div:nth-child(9){margin: 10px 0 0 20px;}
+ 
+ 
+
+ section img{width: 220px; height: 140px; float: left; margin:10px 15px 0 0;}
+ .camera h3{padding: 0px 10px 10px 30px; font-size: 36px;}
+ .camera p{float:left; margin-top: 32px; font-size: 20px;}
+ .camera2 img{margin:70px 15px 0px 0;}
+ .camera2 p{float: left; margin-top: 100px; font-size: 20px;}
+ .camera3 img{float: left;}
+ .camera3 p{float: left; margin-top: 40px; font-size: 20px;}
+ section span{font-weight: bold;}
+ 
+
+
+/* 하단 보조 화면 2개 */
+#loww{margin: 0 auto; width: 1905px; height: 337px; }
+#loww img{width: 950px; height: 337px; float: left; margin-top: 20px;}
+
