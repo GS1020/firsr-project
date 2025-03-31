@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="substyle.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/substyle.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -55,16 +55,16 @@
                 $(".ld").fadeIn();
                 $(".bigbox1").fadeOut();
                 $(".sy").fadeOut();
-                $(".tab3").fadeOut();
+                $(".tap3").fadeOut();
             });
              $(".menu button:nth-of-type(2)").click(function(){
                 $(".sy").fadeIn();
                 $(".ld").fadeOut();
                 $(".bigbox1").fadeOut();
-                $(".tab3").fadeOut();
+                $(".tap3").fadeOut();
             });
             $(".menu button:nth-of-type(3)").click(function(){
-                $(".tab3").fadeIn();
+                $(".tap3").show();
                 $(".ld").fadeOut();
                 $(".bigbox1").fadeOut();
                 $(".sy").fadeOut();
@@ -73,50 +73,46 @@
                 $(".bigbox1").fadeIn();
                 $(".ld").fadeOut();
                 $(".sy").fadeOut();
-                $(".tab3").fadeOut();
+                $(".tap3").fadeOut();
             });
 
 
             // 엑세사리
-            $(".tap3 button:nth-of-type(1)").click(function(){
-                $(".v2").fadeIn();
-                $(".v3").hide();
-                $(".v4").hide();
-                $(".v5").hide();
-                $(".v6").hide();
+            $("button:nth-of-type(1)").click(function(){
+            $(".v2").fadeIn();
+            $(".v3").hide();
+            $(".v4").hide();
+            $(".v5").hide();
+            $(".v6").hide();
             });
-            $(".tap3 button:nth-of-type(2)").click(function(){
-                $(".v3").fadeIn();
-                $(".v3").css({"display": "flex", "opacity": 0}).animate({"opacity": 1}, 400);
-                $(".v2").hide();
-                $(".v4").hide();
-                $(".v5").hide();
-                $(".v6").hide();
-            });
-            $(".tap3 button:nth-of-type(3)").click(function(){
-                $(".v4").fadeIn();
-                $(".v4").css({"display": "flex", "opacity": 0}).animate({"opacity": 1}, 400);
-                $(".v2").hide();
-                $(".v3").hide();
-                $(".v5").hide();
-                $(".v6").hide();
-            });
-            $(".tap3 button:nth-of-type(4)").click(function(){
-                $(".v5").fadeIn();
-                $(".v5").css({"display": "flex", "opacity": 0}).animate({"opacity": 1}, 400);
-                $(".v2").hide();
-                $(".v3").hide();
-                $(".v4").hide();
-                $(".v6").hide();
-            });
-            $(".tap3 button:nth-of-type(5)").click(function(){
-                $(".v6").fadeIn();
-                $(".v6").css({"display": "flex", "opacity": 0}).animate({"opacity": 1}, 400);
-                $(".v2").hide();
-                $(".v3").hide();
-                $(".v4").hide();
-                $(".v5").hide();
-            });
+        $("button:nth-of-type(2)").click(function(){
+            $(".v3").fadeIn();
+            $(".v2").hide();
+            $(".v4").hide();
+            $(".v5").hide();
+            $(".v6").hide();
+        });
+        $("button:nth-of-type(3)").click(function(){
+            $(".v4").fadeIn(); 
+            $(".v2").hide();
+            $(".v3").hide();
+            $(".v5").hide();
+            $(".v6").hide();
+        });
+        $("button:nth-of-type(4)").click(function(){
+            $(".v5").fadeIn();           
+            $(".v2").hide();
+            $(".v3").hide();
+            $(".v4").hide();
+            $(".v6").hide();
+        });
+        $("button:nth-of-type(5)").click(function(){
+            $(".v6").fadeIn();
+            $(".v2").hide();
+            $(".v3").hide();
+            $(".v4").hide();
+            $(".v5").hide();
+        });
         
         });
 
@@ -654,13 +650,13 @@
 
         <!-- 악세사리 -->
         <div class="tap3">
-            <div>
+            <div class="mhead">
                 <ul>
-                <button type="button"><li>마운트 어댑터</li></button>
-                <button type="button"><li>스피드라이트</li></button>
-                <button type="button"><li>전원/배터리/그립</li></button>
-                <button type="button"><li>리모트 컨트롤 시스템</li></button>
-                <button type="button"><li>가방/케이스/스트랩</li></button>
+                    <button><li>마운트 어댑터</li></button>
+                    <button><li>스피드라이트</li></button>
+                    <button><li>전원/배터리/그립</li></button>
+                    <button><li>리모트 컨트롤 시스템</li></button>
+                    <button><li>가방/케이스/스트랩</li></button>
                 </ul>
             </div>
     
@@ -721,12 +717,12 @@
             </div>
     
             <div class="v5">
-                <div class="acbox1">
+                <div class="acbox2">
                     <img src="subimg/리모트컨트롤1.jpg" alt="con1">
                     <p>BR-E1</p>
                 </div>
     
-                <div class="acbox1">
+                <div class="acbox2">
                     <img src="subimg/리모트컨트롤2.jpg" alt="con2">
                     <p>RA-E3</p>
                 </div>
