@@ -8,6 +8,7 @@ h1{font-family: 'Ramaraja', sans-serif ;}
 header{ margin: 0 auto; width:1280px ; height: 100px; }
 #logo{margin: 0px 20px 0 0; float: left;}
 #logo img{width: 280px;}
+#logo:hover{cursor: pointer;}
 nav{float: right; font-size: 15pt; padding-left: 40px; padding-top: 35px;}
 nav ul{text-decoration: none; margin-top:0px; margin-left: 15px;}
 nav ul li{float: left; list-style: none; margin: 15px 15px 0 10px;}
