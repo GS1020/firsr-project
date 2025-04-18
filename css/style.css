@@ -2,7 +2,7 @@
 nav a:hover{color: red; border-bottom: 3px red solid;}
 
 /* 슬라이더 메인화면 */
-#slider{margin: 0 auto; width: 100%; position: relative;  }
+#slider{margin: 0 auto; width: 100%; height: 500px; position: relative; background-image: url(../img/mainwomen.jpg); }
 #slider img{width: 100%; display: block;}
 
 #slider h1{position: absolute; top: 60px; left: 320px; font-size: 60pt;} 
