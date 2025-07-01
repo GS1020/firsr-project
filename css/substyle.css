@@ -76,7 +76,7 @@
       .bigbig{width: 1200px;  margin: 0 auto; }
 
     /* 카메라설명란 */
-    .ld{width: 1200px; height: 9590px;  margin: 0 auto; margin-top: 50px; }
+    .ld{width: 1200px; height: 9590px;  margin: 0 auto; margin-top: 50px; margin-bottom: 100px;}
        /* 사양 */
      
       .sy{margin: 0 auto; width: 1200px; height: 4100px; display: none; margin-top: 50px; padding-bottom: 200px;}
@@ -94,7 +94,7 @@
       .textcenter2{text-align: center; padding: 10px; width: 25%; border-top: 4px solid black;}
       .textcenter3{text-align: center; padding: 10px; font-size: 20px; border-top: 4px solid black;}
       .textcenter8{text-align: center; padding: 10px; font-size: 20px;}f
-      .textcenter4{text-align: center; padding: 5px; width: 15%;}
+      .textcenter4{text-align: center; padding: 5px;}
       .textcenter6{text-align: center; padding: 10px; width: 100%;}
       .textcenter5{text-align: center; padding: 10px; width: 100%; border-top: 4px solid black;}
       .ds{width: auto; height: 200px; margin-top: 80px;}
