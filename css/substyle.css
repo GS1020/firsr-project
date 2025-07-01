@@ -43,12 +43,12 @@
     
     .box12 {width: 500px; height: 25px; display: flex; flex-direction: row; align-items: center;}
     .box12 h3 {margin-left: 30px;}
-    .box12 button{border-radius: 100%; width: 20px;border: 0px;}
+    .box12 button{background-color: transparent; width: 20px;border: none}
     
 
     .box2{width: 560px; height: 260px; background-color: #f9f9f9; margin-top: 20px;}
     .box22{width: 560px; height: 40px; margin-left: 30px; display: flex;flex-direction: row; justify-content: space-between; padding-top: 30px;}
-    .box23{width: 103px; height: 38px; display: flex; justify-content: space-between; margin-right: 95px; border: 1px #999 solid; }
+    .box23{width: 103px; height: 35px; display: flex; justify-content: space-between; margin-right: 95px; }
     .box23 button{ width: 30px; height: 30px; border: 0px; background-color: #f9f9f9;}
     .box23 h2{background-color: #f9f9f9;}
 
@@ -94,7 +94,7 @@
       .textcenter2{text-align: center; padding: 10px; width: 25%; border-top: 4px solid black;}
       .textcenter3{text-align: center; padding: 10px; font-size: 20px; border-top: 4px solid black;}
       .textcenter8{text-align: center; padding: 10px; font-size: 20px;}f
-      .textcenter4{text-align: center; padding: 5px;}
+      .textcenter4{text-align: center; padding: 5px; width: 15%;}
       .textcenter6{text-align: center; padding: 10px; width: 100%;}
       .textcenter5{text-align: center; padding: 10px; width: 100%; border-top: 4px solid black;}
       .ds{width: auto; height: 200px; margin-top: 80px;}
