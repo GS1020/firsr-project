@@ -9,7 +9,7 @@ nav a:hover{color: red; border-bottom: 3px red solid;}
 .sliderbox h5{font-size: 1.5vw;}
 .sliderbox h4{background-color: red; width: 4vw; padding: 10px 20px; color: #fff; border-radius: 20px;
 font-size: 1vw; text-align: center; margin-top: 1vw;  border: solid 1px transparent;}
-#slider h4:hover{background-color: #e9e9e9; color: #333; border: solid 1px;}
+#slider h4:hover{background-color: #e9e9e9; color: #333; border: solid 1px #333;}
 #slider a{text-decoration: none; color: #333;}
 .sliderbox {width: 1200px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 /* 상단 보조 화면 2개 */
